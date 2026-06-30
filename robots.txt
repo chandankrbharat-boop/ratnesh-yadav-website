@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ratnesh-yadav-rjd.cky6.workers.dev/sitemap.xml

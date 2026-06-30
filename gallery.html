@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XCVQTMY912"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-XCVQTMY912');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="रत्नेश प्रसाद यादव की फोटो गैलरी — जनसंपर्क, सामाजिक कार्य, और RJD कार्यक्रमों की यादगार तस्वीरें।">
+    <meta name="keywords" content="Ratnesh Prasad Yadav Gallery, RJD Photos, Bihar Politics Photos">
+    <meta name="author" content="Chandan Kumar">
+    <meta property="og:title" content="फोटो गैलरी | Ratnesh Prasad Yadav">
+    <meta property="og:description"
+        content="रत्नेश प्रसाद यादव के जनसंपर्क, सामाजिक कार्य और राजद कार्यक्रमों की तस्वीरें।">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://ratnesh-yadav-rjd.cky6.workers.dev/images/RJD-hero.jpg">
+    <meta property="og:url" content="https://ratnesh-yadav-rjd.cky6.workers.dev/gallery.html">
+
+    <title>फोटो गैलरी | Ratnesh Prasad Yadav | RJD Bihar</title>
+    <link rel="icon" type="image/png" href="images/rjd-lantern.png">
+<link rel="shortcut icon" href="images/rjd-lantern.png">
+<link rel="apple-touch-icon" href="images/rjd-lantern.png">
+    <link rel="canonical" href="https://ratnesh-yadav-rjd.cky6.workers.dev/gallery.html">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        /* =========================================
+           Base Reset & Variables
+        ========================================= */
+        :root {
+            --rjd-green: #0b6b2f;
+            --rjd-green-light: #14853b;
+            --accent-gold: #FFD700;
+            --dark: #1a1a1a;
+            --light-bg: #f5f8f6;
+            --white: #ffffff;
+            --text-muted: #5a5a5a;
+            --shadow-soft: 0 10px 32px rgba(0, 0, 0, 0.08);
+            --shadow-hover: 0 20px 48px rgba(11, 107, 47, 0.18);
+            --transition: 0.35s cubic-bezier(0.25, 1, 0.5, 1);
+        }
+
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Mukta', 'Poppins', sans-serif;
+            background: var(--light-bg);
+            color: var(--dark);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* =========================================
+           Animations
+        ========================================= */
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(28px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* =========================================
+           Gallery Page Hero
+        ========================================= */
+        .gallery-header {
+            background: linear-gradient(to right,
+                    #052e12 0%,
+                    #0b6b2f 15%,
+                    #1a8c42 30%,
+                    #c8ecd5 50%,
+                    #1a8c42 70%,
+                    #0b6b2f 85%,
+                    #052e12 100%);
+            min-height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 52px 5%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Gold accent bottom line */
+        .gallery-header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, var(--rjd-green), var(--accent-gold), var(--rjd-green));
+        }
+
+        /* Premium centered glass card */
+        .gallery-hero-card {
+            position: relative;
+            width: 100%;
+            max-width: 430px;
+            background: rgba(255, 255, 255, 0.92);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 22px;
+            border: 1px solid rgba(255, 255, 255, 0.45);
+            box-shadow:
+                0 8px 20px rgba(0, 0, 0, 0.08),
+                0 18px 40px rgba(0, 0, 0, 0.08),
+                inset 0 1px 0 rgba(255, 255, 255, 0.60);
+            padding: 32px 36px;
+            text-align: center;
+            animation: fadeUp 0.65s cubic-bezier(0.25, 1, 0.5, 1) both;
+            transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.4s ease;
+        }
+
+        .gallery-hero-card:hover {
+            transform: translateY(-4px);
+            box-shadow:
+                0 12px 28px rgba(0, 0, 0, 0.10),
+                0 24px 52px rgba(0, 0, 0, 0.09),
+                inset 0 1px 0 rgba(255, 255, 255, 0.60);
+        }
+
+        /* Lantern watermark strictly behind card text */
+        .gallery-hero-card::before {
+            content: '';
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 150px;
+            height: 150px;
+            background: url('images/rjd-lantern.png') center / contain no-repeat;
+            opacity: 0.035;
+            filter: blur(0.5px);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        /* All card content above watermark */
+        .gallery-hero-card>* {
+            position: relative;
+            z-index: 1;
+        }
+
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            padding: 7px 18px;
+            background: rgba(11, 107, 47, 0.07);
+            color: var(--rjd-green);
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 0.875rem;
+            border: 1px solid rgba(11, 107, 47, 0.18);
+            transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+            margin-bottom: 18px;
+            box-shadow: 0 2px 8px rgba(11, 107, 47, 0.08);
+        }
+
+        .back-btn:hover {
+            background: var(--rjd-green);
+            color: var(--white);
+            border-color: var(--rjd-green);
+            transform: translateX(-3px) translateY(-1px);
+            box-shadow: 0 6px 18px rgba(11, 107, 47, 0.3);
+        }
+
+        .gallery-hero-icon {
+            font-size: 2.2rem;
+            display: block;
+            margin-bottom: 8px;
+            line-height: 1;
+        }
+
+        .gallery-header h1 {
+            font-size: 2.2rem;
+            color: var(--rjd-green);
+            font-weight: 800;
+            margin-bottom: 0;
+            letter-spacing: -0.5px;
+            line-height: 1.1;
+        }
+
+        .header-divider {
+            width: 44px;
+            height: 3px;
+            background: linear-gradient(90deg, var(--rjd-green) 0%, var(--accent-gold) 100%);
+            border-radius: 2px;
+            margin: 10px auto;
+        }
+
+        .gallery-header p {
+            color: var(--text-muted);
+            font-size: 1.2rem;
+            font-weight: 500;
+            line-height: 1.7;
+            margin: 0;
+        }
+
+        /* =========================================
+           Gallery Filter Tabs
+        ========================================= */
+        .gallery-filters {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 36px 5% 8px;
+        }
+
+        .filter-btn {
+            display: inline-flex;
+            align-items: center;
+            height: 46px;
+            padding: 0 26px;
+            border-radius: 999px;
+            font-family: inherit;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            border: 1.5px solid rgba(11, 107, 47, 0.18);
+            background: var(--white);
+            color: var(--text-muted);
+            transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .filter-btn:hover,
+        .filter-btn.active {
+            background: var(--rjd-green);
+            color: var(--white);
+            border-color: var(--rjd-green);
+            box-shadow: 0 6px 20px rgba(11, 107, 47, 0.30);
+            transform: translateY(-2px);
+        }
+
+        /* =========================================
+           Masonry Gallery Grid
+        ========================================= */
+        .gallery-section {
+            padding: 40px 5% 80px;
+        }
+
+        .masonry-grid {
+            columns: 4 280px;
+            column-gap: 24px;
+        }
+
+        .gallery-card {
+            break-inside: avoid;
+            margin-bottom: 24px;
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: var(--shadow-soft);
+            background: var(--white);
+            cursor: zoom-in;
+            position: relative;
+            transition: box-shadow var(--transition), transform var(--transition);
+        }
+
+        .gallery-card:hover {
+            box-shadow: var(--shadow-hover);
+            transform: translateY(-8px);
+        }
+
+        .gallery-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.65s cubic-bezier(0.25, 1, 0.5, 1);
+        }
+
+        .gallery-card:hover img {
+            transform: scale(1.05);
+        }
+
+        /* Overlay on hover */
+        .gallery-card::after {
+            content: '\f00e';
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to top, rgba(11, 107, 47, 0.55) 0%, transparent 60%);
+            color: rgba(255, 255, 255, 0.9);
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+            padding: 18px;
+            font-size: 1.4rem;
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+
+        .gallery-card:hover::after {
+            opacity: 1;
+        }
+
+        .gallery-category {
+            padding: 32px 5% 6px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .gallery-category h2 {
+            font-size: 1.4rem;
+            color: var(--dark);
+            font-weight: 700;
+            white-space: nowrap;
+            letter-spacing: -0.2px;
+        }
+
+        .gallery-category h2 span {
+            color: var(--rjd-green);
+        }
+
+        .category-line {
+            flex: 1;
+            height: 1.5px;
+            background: linear-gradient(90deg, var(--accent-gold) 0%, rgba(11, 107, 47, 0.2) 40%, transparent 100%);
+            border-radius: 1px;
+        }
+
+        /* =========================================
+           Lightbox
+        ========================================= */
+        .lightbox-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(6, 6, 6, 0.97);
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+            z-index: 9999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.38s ease, visibility 0.38s ease;
+        }
+
+        .lightbox-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .lightbox-img-wrap {
+            position: relative;
+            max-width: 92vw;
+            max-height: 88vh;
+        }
+
+        .lightbox-overlay img {
+            max-width: 90vw;
+            max-height: 86vh;
+            border-radius: 14px;
+            box-shadow: 0 0 80px rgba(0, 0, 0, 0.9);
+            object-fit: contain;
+            display: block;
+            transform: scale(0.94);
+            transition: transform 0.4s ease;
+        }
+
+        .lightbox-overlay.active img {
+            transform: scale(1);
+        }
+
+        .lb-close {
+            position: absolute;
+            top: -50px;
+            right: -10px;
+            color: var(--white);
+            font-size: 48px;
+            cursor: pointer;
+            line-height: 1;
+            transition: color 0.3s ease, transform 0.3s ease;
+            z-index: 10000;
+        }
+
+        .lb-close:hover {
+            color: var(--accent-gold);
+            transform: rotate(90deg);
+        }
+
+        .lb-prev,
+        .lb-next {
+            position: fixed;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--white);
+            font-size: 40px;
+            cursor: pointer;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.07);
+            border-radius: 50%;
+            transition: all 0.3s ease;
+            user-select: none;
+            z-index: 10000;
+        }
+
+        .lb-prev {
+            left: 28px;
+        }
+
+        .lb-next {
+            right: 28px;
+        }
+
+        .lb-prev:hover,
+        .lb-next:hover {
+            background: var(--rjd-green);
+            color: var(--accent-gold);
+            transform: translateY(-50%) scale(1.08);
+        }
+
+        /* Image counter */
+        .lb-counter {
+            position: fixed;
+            bottom: 24px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: rgba(255, 255, 255, 0.65);
+            font-size: 1rem;
+            font-family: 'Poppins', sans-serif;
+            letter-spacing: 1px;
+            z-index: 10000;
+        }
+
+        /* =========================================
+           Premium Footer (matches index.html)
+        ========================================= */
+        .site-footer {
+            background: #0f0f0f;
+            color: var(--white);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .site-footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, var(--rjd-green), var(--accent-gold), var(--rjd-green));
+        }
+
+        .site-footer::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: -100px;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle at center,
+                    rgba(255, 255, 255, 0.20) 0%,
+                    rgba(210, 240, 220, 0.10) 25%,
+                    rgba(11, 107, 47, 0.03) 45%,
+                    transparent 70%);
+            pointer-events: none;
+        }
+
+        .footer-inner {
+            display: grid;
+            grid-template-columns: 1.4fr 1fr 1fr;
+            gap: 50px;
+            padding: 70px 7% 55px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .footer-brand {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 14px;
+        }
+
+        .footer-logo {
+            width: 56px;
+            height: 56px;
+            object-fit: contain;
+            filter: drop-shadow(0 4px 8px rgba(255, 215, 0, 0.2));
+            transition: filter 0.4s ease;
+        }
+
+        .footer-logo:hover {
+            filter: drop-shadow(0 6px 14px rgba(255, 215, 0, 0.5));
+        }
+
+        .footer-brand h3 {
+            color: var(--white);
+            font-size: 1.75rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin: 0;
+        }
+
+        .footer-brand .footer-title {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        .footer-links h4,
+        .footer-contact-col h4 {
+            color: var(--accent-gold);
+            font-size: 1rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .footer-links h4::after,
+        .footer-contact-col h4::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 32px;
+            height: 3px;
+            background: var(--rjd-green-light);
+            border-radius: 2px;
+        }
+
+        .footer-links ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 11px;
+        }
+
+        .footer-links ul li a {
+            color: rgba(255, 255, 255, 0.62);
+            text-decoration: none;
+            font-size: 0.97rem;
+            transition: color 0.3s ease, padding-left 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+        }
+
+        .footer-links ul li a::before {
+            content: '\203A';
+            color: var(--rjd-green-light);
+            font-size: 1.15rem;
+        }
+
+        .footer-links ul li a:hover {
+            color: var(--white);
+            padding-left: 5px;
+        }
+
+        .footer-contact-col p {
+            color: rgba(255, 255, 255, 0.62);
+            font-size: 0.97rem;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            line-height: 1.55;
+        }
+
+        .footer-contact-col p i {
+            color: var(--rjd-green-light);
+            font-size: 0.97rem;
+            margin-top: 2px;
+            flex-shrink: 0;
+        }
+
+        .footer-social-row {
+            display: flex;
+            gap: 12px;
+            margin-top: 22px;
+        }
+
+        .footer-social-btn {
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: var(--white);
+            font-size: 1.1rem;
+            transition: all 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .footer-insta {
+            background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+            box-shadow: 0 4px 12px rgba(220, 39, 67, 0.22);
+        }
+
+        .footer-fb {
+            background: #1877F2;
+            box-shadow: 0 4px 12px rgba(24, 119, 242, 0.22);
+        }
+
+        .footer-wa-btn {
+            background: #25D366;
+            box-shadow: 0 4px 12px rgba(37, 211, 102, 0.22);
+        }
+
+        .footer-social-btn:hover {
+            transform: translateY(-5px) scale(1.1);
+            color: var(--white);
+        }
+
+        .footer-insta:hover {
+            box-shadow: 0 10px 24px rgba(220, 39, 67, 0.5);
+        }
+
+        .footer-fb:hover {
+            box-shadow: 0 10px 24px rgba(24, 119, 242, 0.5);
+        }
+
+        .footer-wa-btn:hover {
+            box-shadow: 0 10px 24px rgba(37, 211, 102, 0.5);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            padding: 24px 7%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            position: relative;
+            z-index: 1;
+            text-align: center;
+        }
+
+        .copyright {
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 0.88rem;
+        }
+
+        .credit-line {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 0.9rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .dev-name {
+            font-size: 0.95rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            background: linear-gradient(135deg, #25D366 0%, #14a84a 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-decoration: none;
+            transition: filter 0.3s ease;
+            position: relative;
+        }
+
+        .dev-name::after {
+            content: '';
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, #25D366, #14a84a);
+            border-radius: 1px;
+        }
+
+        .dev-name:hover {
+            filter: brightness(1.25);
+        }
+
+        .wa-dev-inline {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #25D366;
+            color: var(--white);
+            font-size: 0.95rem;
+            text-decoration: none;
+            box-shadow: 0 3px 10px rgba(37, 211, 102, 0.3);
+            transition: all 0.3s ease;
+            flex-shrink: 0;
+        }
+
+        .wa-dev-inline:hover {
+            transform: translateY(-3px) scale(1.1);
+            box-shadow: 0 7px 18px rgba(37, 211, 102, 0.55);
+            color: var(--white);
+        }
+
+        /* =========================================
+           Responsive
+        ========================================= */
+        @media (max-width: 991px) {
+            .masonry-grid {
+                columns: 3 240px;
+            }
+
+            .gallery-hero-card {
+                max-width: 420px;
+                padding: 28px 32px;
+            }
+
+            .gallery-header h1 {
+                font-size: 2rem;
+            }
+
+            .footer-inner {
+                grid-template-columns: 1fr 1fr;
+                gap: 36px;
+            }
+
+            .footer-brand {
+                grid-column: 1 / -1;
+                align-items: center;
+                text-align: center;
+            }
+
+            .footer-links h4::after,
+            .footer-contact-col h4::after {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            .footer-links h4,
+            .footer-contact-col h4 {
+                text-align: center;
+            }
+
+            .footer-links ul {
+                align-items: center;
+            }
+
+            .footer-contact-col p {
+                justify-content: center;
+            }
+
+            .footer-social-row {
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .masonry-grid {
+                columns: 2 200px;
+                column-gap: 16px;
+            }
+
+            .gallery-card {
+                margin-bottom: 16px;
+            }
+
+            .gallery-header {
+                padding: 36px 5%;
+                min-height: auto;
+            }
+
+            .gallery-hero-card {
+                max-width: 100%;
+                padding: 26px 24px 22px;
+            }
+
+            .gallery-header h1 {
+                font-size: 1.75rem;
+            }
+
+            .gallery-header p {
+                font-size: 0.93rem;
+            }
+
+            .lb-prev {
+                left: 8px;
+            }
+
+            .lb-next {
+                right: 8px;
+            }
+
+            .lb-prev,
+            .lb-next {
+                padding: 14px;
+                font-size: 28px;
+            }
+
+            .footer-inner {
+                grid-template-columns: 1fr;
+                padding: 52px 6% 36px;
+                gap: 36px;
+            }
+
+            .footer-brand {
+                align-items: center;
+                text-align: center;
+            }
+
+            .footer-bottom {
+                padding: 22px 6%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .masonry-grid {
+                columns: 1;
+            }
+
+            .gallery-header {
+                padding: 24px 4%;
+            }
+
+            .gallery-hero-card {
+                border-radius: 16px;
+                padding: 24px 18px 20px;
+            }
+
+            .gallery-header h1 {
+                font-size: 1.5rem;
+            }
+
+            .gallery-section {
+                padding: 24px 4% 55px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Gallery Hero -->
+    <header class="gallery-header" aria-label="Gallery Hero">
+        <div class="gallery-hero-card" role="banner">
+            <a href="index.html" class="back-btn" aria-label="Back to Home Page">
+                <i class="fas fa-arrow-left" aria-hidden="true"></i> होम पेज
+            </a>
+            <span class="gallery-hero-icon" aria-hidden="true">📷</span>
+            <h1>फोटो गैलरी</h1>
+            <div class="header-divider"></div>
+            <p>रत्नेश प्रसाद यादव के कुछ यादगार पल</p>
+        </div>
+    </header>
+
+    <!-- Filter Tabs -->
+    <div class="gallery-filters" role="tablist" aria-label="Gallery Categories">
+        <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">सभी</button>
+        <button class="filter-btn" data-filter="ratnesh" role="tab" aria-selected="false">रत्नेश जी</button>
+        <button class="filter-btn" data-filter="rabri" role="tab" aria-selected="false">राबड़ी देवी</button>
+        <button class="filter-btn" data-filter="tej" role="tab" aria-selected="false">तेजस्वी यादव</button>
+    </div>
+
+    <!-- Main Gallery -->
+    <main class="gallery-section">
+
+        <!-- Ratnesh Photos -->
+        <div class="gallery-category" data-category-label="ratnesh">
+            <h2><span>रत्नेश प्रसाद यादव</span> — जनसंपर्क व कार्यक्रम</h2>
+            <div class="category-line"></div>
+        </div>
+
+        <div class="masonry-grid" id="masonry-grid">
+
+            <!-- Ratnesh photos (images/1–8, gallery2–7) -->
+            <div class="gallery-card" data-category="ratnesh" tabindex="0" role="button" aria-label="गैलरी फोटो देखें">
+                <img src="images/1.jpg" alt="रत्नेश प्रसाद यादव — जनसंपर्क" loading="lazy">
+            </div>
+            <div class="gallery-card" data-category="ratnesh" tabindex="0" role="button" aria-label="गैलरी फोटो देखें">
+                <img src="images/2.jpg" alt="रत्नेश प्रसाद यादव — कार्यक्रम" loading="lazy">
+            </div>
+            <div class="gallery-card" data-category="ratnesh" tabindex="0" role="button" aria-label="गैलरी फोटो देखें">
+                <img src="images/3.jpg" alt="रत्नेश प्रसाद यादव — सामाजिक सेवा" loading="lazy">
+            </div>
+            <div class="gallery-card" data-category="ratnesh" tabindex="0" role="button" aria-label="गैलरी फोटो देखें">
+                <img src="images/4.jpg" alt="रत्नेश प्रसाद यादव — युवा सभा" loading="lazy">
+            </div>
+            <div class="gallery-card" data-category="ratnesh" tabindex="0" role="button" aria-label="गैलरी फोटो देखें">
+                <img src="images/5.jpg" alt="रत्नेश प्रसाद यादव — राजद रैली" loading="lazy">
+            </div>
+            <div class="gallery-card" data-category="ratnesh" tabindex="0" role="button" aria-label="गैलरी फोटो देखें">
+                <img src="images/6.jpg" alt="रत्नेश प्रसाद यादव — जनसेवा" loading="lazy">
+            </div>
+            <div class="gallery-card" data-category="ratnesh" tabindex="0" role="button" aria-label="गैलरी फोटो देखें">
+                <img src="images/7.jpg" alt="रत्नेश प्रसाद यादव — कार्यक्रम" loading="lazy">
+            </div>
+            <div class="gallery-card" data-category="ratnesh" tabindex="0" role="button" aria-label="गैलरी फोटो देखें">
+                <img src="images/8.jpg" alt="रत्नेश प्रसाद यादव — आपदा राहत" loading="lazy">
+            </div>
+            <div class="gallery-card" data-category="ratnesh" tabindex="0" role="button" aria-label="गैलरी फोटो देखें">
+                <img src="images/gallery2.jpg" alt="रत्नेश प्रसाद यादव — विशेष कार्यक्रम" loading="lazy">
+            </div>
+            <div class="gallery-card" data-category="ratnesh" tabindex="0" role="button" aria-label="गैलरी फोटो देखें">
+                <img src="images/gallery3.jpg" alt="रत्नेश प्रसाद यादव — जन अभियान" loading="lazy">
+            </div>
+            <div class="gallery-card" data-category="ratnesh" tabindex="0" role="button" aria-label="गैलरी फोटो देखें">
+                <img src="images/gallery4.jpg" alt="रत्नेश प्रसाद यादव — सामाजिक कार्यक्रम" loading="lazy">
+            </div>
+            <div class="gallery-card" data-category="ratnesh" tabindex="0" role="button" aria-label="गैलरी फोटो देखें">
+                <img src="images/gallery5.jpg" alt="रत्नेश प्रसाद यादव — प्रचार रैली" loading="lazy">
+            </div>
+            <div class="gallery-card" data-category="ratnesh" tabindex="0" role="button" aria-label="गैलरी फोटो देखें">
+                <img src="images/gallery6.jpg" alt="रत्नेश प्रसाद यादव — राजद कार्यक्रम" loading="lazy">
+            </div>
+            <div class="gallery-card" data-category="ratnesh" tabindex="0" role="button" aria-label="गैलरी फोटो देखें">
+                <img src="images/gallery7.jpg" alt="रत्नेश प्रसाद यादव — जनसंपर्क अभियान" loading="lazy">
+            </div>
+
+            <!-- Rabri Devi photos -->
+            <div class="gallery-card" data-category="rabri" tabindex="0" role="button" aria-label="गैलरी फोटो देखें">
+                <img src="images/rabri.jpg" alt="राबड़ी देवी के साथ रत्नेश प्रसाद यादव" loading="lazy">
+            </div>
+            <div class="gallery-card" data-category="rabri" tabindex="0" role="button" aria-label="गैलरी फोटो देखें">
+                <img src="images/rabri2.jpg" alt="राबड़ी देवी — RJD कार्यक्रम" loading="lazy">
+            </div>
+
+            <!-- Tejashwi Yadav photos -->
+            <div class="gallery-card" data-category="tej" tabindex="0" role="button" aria-label="गैलरी फोटो देखें">
+                <img src="images/tej.jpg" alt="तेजस्वी यादव के साथ रत्नेश प्रसाद यादव" loading="lazy">
+            </div>
+            <div class="gallery-card" data-category="tej" tabindex="0" role="button" aria-label="गैलरी फोटो देखें">
+                <img src="images/tej2.jpg" alt="तेजस्वी यादव — RJD रैली" loading="lazy">
+            </div>
+            <div class="gallery-card" data-category="tej" tabindex="0" role="button" aria-label="गैलरी फोटो देखें">
+                <img src="images/tej3.jpg" alt="तेजस्वी यादव — जनसभा" loading="lazy">
+            </div>
+            <div class="gallery-card" data-category="tej" tabindex="0" role="button" aria-label="गैलरी फोटो देखें">
+                <img src="images/tej4.jpg" alt="तेजस्वी यादव — राजद कार्यक्रम" loading="lazy">
+            </div>
+            <div class="gallery-card" data-category="tej" tabindex="0" role="button" aria-label="गैलरी फोटो देखें">
+                <img src="images/tej5.jpg" alt="तेजस्वी यादव — युवा सम्मेलन" loading="lazy">
+            </div>
+            <div class="gallery-card" data-category="tej" tabindex="0" role="button" aria-label="गैलरी फोटो देखें">
+                <img src="images/tej6.jpg" alt="तेजस्वी यादव — बिहार रैली" loading="lazy">
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Lightbox Overlay -->
+    <div id="gallery-lightbox" class="lightbox-overlay" role="dialog" aria-modal="true" aria-label="Image Preview">
+        <div class="lightbox-img-wrap">
+            <span class="lb-close" role="button" tabindex="0" aria-label="Close">&times;</span>
+            <img id="lb-img" src="" alt="Gallery Image Preview">
+        </div>
+        <span class="lb-prev" role="button" tabindex="0" aria-label="Previous Image">&#10094;</span>
+        <span class="lb-next" role="button" tabindex="0" aria-label="Next Image">&#10095;</span>
+        <div class="lb-counter" id="lb-counter" aria-live="polite"></div>
+    </div>
+
+    <!-- Premium Footer -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <img src="images/rjd-lantern.png" alt="RJD Lantern" class="footer-logo">
+                <h3>रत्नेश प्रसाद यादव</h3>
+                <p class="footer-title">आपदा राजद प्रदेश सचिव, बिहार</p>
+            </div>
+
+            <div class="footer-links">
+                <h4> लिंक</h4>
+                <ul>
+                    <li><a href="index.html#home">होम</a></li>
+                    <li><a href="index.html#social">सोशल मीडिया</a></li>
+                    <li><a href="index.html#about">हमारे बारे में</a></li>
+                    <li><a href="index.html#work">प्रमुख कार्य</a></li>
+                    <li><a href="gallery.html">फोटो गैलरी</a></li>
+                    <li><a href="index.html#contact">संपर्क</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact-col">
+                <h4>संपर्क</h4>
+                <p><i class="fas fa-phone" aria-hidden="true"></i> +91 9507356159</p>
+                <p><i class="fas fa-envelope" aria-hidden="true"></i> ratneshyadavji77@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> हाजीपुर - राघोपुर विधानसभा क्षेत्र, बिहार
+                </p>
+                <div class="footer-social-row">
+                    <a href="https://www.instagram.com/ratnesh_prasad_yadav/"
+                        onclick="openInstagramProfile(event, 'ratnesh_prasad_yadav')" target="_blank"
+                        rel="noopener noreferrer" class="footer-social-btn footer-insta" aria-label="Instagram">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.facebook.com/ratnesh.yadavji.967" target="_blank" rel="noopener noreferrer"
+                        class="footer-social-btn footer-fb" aria-label="Facebook">
+                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://wa.me/919507356159" target="_blank" rel="noopener noreferrer"
+                        class="footer-social-btn footer-wa-btn" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p class="copyright">&copy; 2026 Ratnesh Prasad Yadav. All Rights Reserved.</p>
+            <div class="developer-credit">
+                <p class="credit-line">
+                    Website Designed &amp; Developed by
+                    <a href="https://www.instagram.com/itsmechandan0/"
+                        onclick="openInstagramProfile(event, 'itsmechandan0')" target="_blank" rel="noopener noreferrer"
+                        class="dev-name" aria-label="Developer Instagram Profile">CHANDAN KUMAR</a>
+                    <a href="https://wa.me/919523786658" target="_blank" rel="noopener noreferrer" class="wa-dev-inline"
+                        aria-label="Developer WhatsApp">
+                        <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Safe Deep Link Logic for Instagram -->
+    <script>
+        function openInstagramProfile(event, username) {
+            event.preventDefault();
+            var webUrl = 'https://www.instagram.com/' + username + '/';
+            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            if (/android/i.test(userAgent)) {
+                var intentUrl = 'intent://instagram.com/_u/' + username + '/#Intent;package=com.instagram.android;scheme=https;S.browser_fallback_url=' + encodeURIComponent(webUrl) + ';end';
+                window.location.href = intentUrl;
+            } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                var appUrl = 'instagram://user?username=' + username;
+                var now = Date.now();
+                setTimeout(function () { if (Date.now() - now < 2000) { window.location.href = webUrl; } }, 500);
+                window.location.href = appUrl;
+            } else {
+                window.open(webUrl, '_blank');
+            }
+        }
+    </script>
+
+    <script>
+        /* =========================================
+           Gallery Filter Logic
+        ========================================= */
+        const filterBtns = document.querySelectorAll(".filter-btn");
+        const cards = document.querySelectorAll(".gallery-card");
+
+        filterBtns.forEach((btn) => {
+            btn.addEventListener("click", () => {
+                filterBtns.forEach(b => { b.classList.remove("active"); b.setAttribute("aria-selected", "false"); });
+                btn.classList.add("active");
+                btn.setAttribute("aria-selected", "true");
+
+                const filter = btn.dataset.filter;
+
+                cards.forEach((card) => {
+                    if (filter === "all" || card.dataset.category === filter) {
+                        card.style.display = "";
+                        card.style.opacity = "1";
+                    } else {
+                        card.style.display = "none";
+                    }
+                });
+            });
+        });
+
+        /* =========================================
+           Lightbox Logic
+        ========================================= */
+        const lightbox = document.getElementById("gallery-lightbox");
+        const lbImg = document.getElementById("lb-img");
+        const lbCounter = document.getElementById("lb-counter");
+        const lbClose = document.querySelector(".lb-close");
+        const lbPrev = document.querySelector(".lb-prev");
+        const lbNext = document.querySelector(".lb-next");
+
+        let allCards = [];
+        let activeIdx = 0;
+
+        function getVisibleCards() {
+            return Array.from(document.querySelectorAll(".gallery-card"))
+                .filter(c => c.style.display !== "none");
+        }
+
+        function openLightbox(index) {
+            allCards = getVisibleCards();
+            activeIdx = index;
+            updateLightboxImage();
+            lightbox.classList.add("active");
+            document.body.style.overflow = "hidden";
+        }
+
+        function closeLightbox() {
+            lightbox.classList.remove("active");
+            document.body.style.overflow = "";
+        }
+
+        function updateLightboxImage() {
+            const card = allCards[activeIdx];
+            const imgEl = card.querySelector("img");
+            lbImg.src = imgEl.src;
+            lbImg.alt = imgEl.alt;
+            lbCounter.textContent = `${activeIdx + 1} / ${allCards.length}`;
+        }
+
+        function goNext() {
+            activeIdx = (activeIdx + 1) % allCards.length;
+            animateChange(1);
+        }
+
+        function goPrev() {
+            activeIdx = (activeIdx - 1 + allCards.length) % allCards.length;
+            animateChange(-1);
+        }
+
+        function animateChange(dir) {
+            lbImg.style.opacity = "0";
+            lbImg.style.transform = `translateX(${dir * 40}px) scale(0.96)`;
+            setTimeout(() => {
+                updateLightboxImage();
+                lbImg.style.transition = "none";
+                lbImg.style.transform = `translateX(${-dir * 40}px) scale(0.96)`;
+                lbImg.style.opacity = "0";
+                requestAnimationFrame(() => {
+                    requestAnimationFrame(() => {
+                        lbImg.style.transition = "opacity 0.25s ease, transform 0.28s ease";
+                        lbImg.style.opacity = "1";
+                        lbImg.style.transform = "translateX(0) scale(1)";
+                    });
+                });
+            }, 180);
+        }
+
+        // Attach events to cards
+        cards.forEach((card, idx) => {
+            card.addEventListener("click", () => {
+                const visible = getVisibleCards();
+                openLightbox(visible.indexOf(card));
+            });
+            card.addEventListener("keydown", (e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                    e.preventDefault();
+                    const visible = getVisibleCards();
+                    openLightbox(visible.indexOf(card));
+                }
+            });
+        });
+
+        if (lbClose) {
+            lbClose.addEventListener("click", closeLightbox);
+            lbClose.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") closeLightbox(); });
+        }
+        if (lbNext) {
+            lbNext.addEventListener("click", goNext);
+            lbNext.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") goNext(); });
+        }
+        if (lbPrev) {
+            lbPrev.addEventListener("click", goPrev);
+            lbPrev.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") goPrev(); });
+        }
+
+        lightbox.addEventListener("click", (e) => {
+            if (e.target === lightbox) closeLightbox();
+        });
+
+        document.addEventListener("keydown", (e) => {
+            if (!lightbox.classList.contains("active")) return;
+            if (e.key === "Escape") closeLightbox();
+            if (e.key === "ArrowRight") goNext();
+            if (e.key === "ArrowLeft") goPrev();
+        });
+    </script>
+</body>
+
+</html>
